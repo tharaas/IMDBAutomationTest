@@ -1,4 +1,3 @@
-import time
 import unittest
 from Infra.browser_wrapper import browserWrapper
 from Logic.home_page import HomePage
@@ -36,4 +35,4 @@ class IMDBSignInTest(unittest.TestCase):
         self.tv_show.click_on_rate()
         self.rate = Rate(self.driver)
         #self.rate.click_on_eight_stars_rate()
-        self.assertTrue(self.rate.click_on_menu_is_displayed(), "Label is not displayed")
+        self.assertTrue(self.rate.click_on_menu_is_displayed(), "Rate is not displayed")

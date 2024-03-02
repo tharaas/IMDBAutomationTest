@@ -1,10 +1,6 @@
 import time
-from telnetlib import EC
-
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-
 from Infra.base_page import BasePage
 
 

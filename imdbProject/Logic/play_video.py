@@ -17,4 +17,3 @@ class PlayVideo(BasePage):
 
     def click_on_play_trailer(self):
         self.trailer.click()
-

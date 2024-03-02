@@ -1,5 +1,4 @@
 import time
-
 from selenium.webdriver.common.by import By
 from Infra.base_page import BasePage
 
@@ -25,4 +24,3 @@ class AttackOnTitanPage(BasePage):
 
     def go_to_user_home_page(self):
         self.user_home_page.click()
-

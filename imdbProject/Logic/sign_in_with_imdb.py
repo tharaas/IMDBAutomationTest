@@ -1,5 +1,3 @@
-import time
-
 from selenium.webdriver.common.by import By
 from Infra.base_page import BasePage
 

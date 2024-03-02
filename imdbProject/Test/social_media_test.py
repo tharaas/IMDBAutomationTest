@@ -19,11 +19,11 @@ class IMDBSignInTest(unittest.TestCase):
         time.sleep(5)
         self.url_instagram = self.instagram_button.get_attribute("href")
         print(self.url_instagram)
-        self.assertTrue(self.home_page.go_to_instagram_page_is_displayed(self.url_instagram), "Label is not displayed")
+        self.assertTrue(self.home_page.go_to_instagram_page_is_displayed(self.url_instagram), "url is not displayed")
 
     def test_youtube_button(self):
         self.youtube_button = self.home_page.wait_for_element_button_and_click(self.home_page.YOUTUBE_BUTTON)
         time.sleep(5)
         self.url_youtube = self.youtube_button.get_attribute("href")
         print(self.url_youtube)
-        self.assertTrue(self.home_page.go_to_youtube_page_is_displayed(self.url_youtube), "Label is not displayed")
+        self.assertTrue(self.home_page.go_to_youtube_page_is_displayed(self.url_youtube), "url is not displayed")

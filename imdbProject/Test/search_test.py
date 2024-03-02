@@ -1,5 +1,6 @@
 import unittest
 from Infra.browser_wrapper import browserWrapper
+from Logic.actor_page import ActorPage
 from Logic.attack_in_titan_page import AttackOnTitanPage
 from Logic.home_page import HomePage
 from Logic.search_options import SearchOptions
@@ -24,15 +25,12 @@ class IMDBSignInTest(unittest.TestCase):
         self.search_page = SearchPage(self.driver)
         self.search_page.click_on_first_movie_match()
         self.show_page = AttackOnTitanPage(self.driver)
-        self.assertTrue(self.show_page.page_title_is_displayed(), "Label is not displayed")
+        self.assertTrue(self.show_page.page_title_is_displayed(), "Title is not displayed")
 
     def test_search_celebs(self):
         self.home_page.click_on_search_option()
         self.search_options = SearchOptions(self.driver)
-        #self.search_options.click_on_celebs_button()
-        #self.home_page.search_flow(self.SEARCH_CELEBS)
-        #self.search_page = SearchPage(self.driver)
-        #self.search_page.click_on_first_movie_match()
-        #self.show_page = AttackOnTitanPage(self.driver)
-        #self.show_page.click_on_add_to_watchlist_button()
-        #self.assertTrue(self.show_page.page_title_is_displayed(), "Label is not displayed")
+        self.search_options.click_on_celebs_button()
+        self.home_page.search_flow(self.SEARCH_CELEBS)
+        self.actor_page = ActorPage(self.driver)
+        self.assertTrue(self.actor_page.title_is_displayed(), "Title is not displayed")

@@ -1,5 +1,4 @@
 import time
-
 from selenium.webdriver.common.by import By
 from Infra.base_page import BasePage
 
@@ -20,4 +19,3 @@ class Rate(BasePage):
 
     def click_on_eight_stars_rate(self):
         self.eight_stars.click()
-

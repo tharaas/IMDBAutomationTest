@@ -25,7 +25,7 @@ class IMDBSignInTest(unittest.TestCase):
         self.play_video = PlayVideo(self.driver)
         self.play_video.click_on_play_trailer()
         self.trailer = Trailer(self.driver)
-        self.assertTrue(self.trailer.movie_page_is_displayed(), "Label is not displayed")
+        self.assertTrue(self.trailer.movie_page_is_displayed(), "Video is not displayed")
 
     def test_mute_a_browse_trailer(self):
         self.home_page.click_on_browse_trailers()
@@ -36,7 +36,7 @@ class IMDBSignInTest(unittest.TestCase):
         self.trailer = Trailer(self.driver)
         self.trailer.click_on_mute_trailer()
         time.sleep(2)
-        self.assertTrue(self.trailer.movie_page_is_displayed(), "Label is not displayed")
+        self.assertTrue(self.trailer.movie_page_is_displayed(), "Mute Video is not displayed")
 
     def test_fullscreen_a_browse_trailer(self):
         self.home_page.click_on_browse_trailers()
@@ -47,7 +47,7 @@ class IMDBSignInTest(unittest.TestCase):
         self.trailer = Trailer(self.driver)
         self.trailer.click_on_fullscreen_trailer()
         time.sleep(2)
-        self.assertTrue(self.trailer.movie_page_is_displayed(), "Label is not displayed")
+        self.assertTrue(self.trailer.movie_page_is_displayed(), "Fullscreen is not displayed")
 
     def test_stop_a_browse_trailer(self):
         self.home_page.click_on_browse_trailers()
@@ -58,4 +58,4 @@ class IMDBSignInTest(unittest.TestCase):
         self.trailer = Trailer(self.driver)
         self.trailer.click_on_stop_trailer()
         time.sleep(2)
-        self.assertTrue(self.trailer.movie_page_is_displayed(), "Label is not displayed")
+        self.assertTrue(self.trailer.movie_page_is_displayed(), "Stop video is not displayed")

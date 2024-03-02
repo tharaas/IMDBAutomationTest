@@ -14,4 +14,3 @@ class NumberOfRate(BasePage):
 
     def click_on_most_popular_movies_is_displayed(self):
         return self.number_of_rating.is_displayed()
-

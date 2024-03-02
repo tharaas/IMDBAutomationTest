@@ -30,7 +30,7 @@ class IMDBSignInTest(unittest.TestCase):
         self.sign_in_with_google_password.flow_password_input_and_click_on_next()
         time.sleep(5)
         self.user_home_page = UserHomePage(self.driver)
-        self.assertTrue(self.user_home_page.user_name_is_displayed(), "Label is not displayed")
+        self.assertTrue(self.user_home_page.user_name_is_displayed(), "user name is not displayed")
 
     def test_click_on_sign_in_with_imdb_email_flow(self):
         self.home_page.click_on_sign_in_button()
@@ -39,4 +39,4 @@ class IMDBSignInTest(unittest.TestCase):
         self.sign_in_with_imdb = SignInWithIMDB(self.driver)
         self.sign_in_with_imdb.fill_email_and_password_sign_in_with_imdb()
         self.user_home_page = UserHomePage(self.driver)
-        self.assertTrue(self.user_home_page.user_name_is_displayed(), "Label is not displayed")
+        self.assertTrue(self.user_home_page.user_name_is_displayed(), "user name is not displayed")

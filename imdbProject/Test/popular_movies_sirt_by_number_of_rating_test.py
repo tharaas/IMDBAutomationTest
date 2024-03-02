@@ -1,7 +1,6 @@
 import time
 import unittest
 from Infra.browser_wrapper import browserWrapper
-from Logic.france_language import FranceLanguage
 from Logic.home_page import HomePage
 from Logic.menu_page import MenuPage
 from Logic.number_of_ratings import NumberOfRate
@@ -27,4 +26,4 @@ class IMDBSignInTest(unittest.TestCase):
         self.sort_by = self.popular_movies.click_on_sort_by()
         self.number_of_rate = NumberOfRate(self.driver)
         self.number_of_rate.click_on_number_of_rating()
-        self.assertTrue(self.number_of_rate.click_on_most_popular_movies_is_displayed(), "Label is not displayed")
+        self.assertTrue(self.number_of_rate.click_on_most_popular_movies_is_displayed(), "Sort is not displayed")

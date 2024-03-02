@@ -1,6 +1,4 @@
 import unittest
-import time
-
 from Infra.browser_wrapper import browserWrapper
 from Logic.adding_to_watchlist import AddingToWatchlist
 from Logic.attack_in_titan_page import AttackOnTitanPage
@@ -46,7 +44,7 @@ class IMDBSignInTest(unittest.TestCase):
         self.watchlist_button = AddingToWatchlist(self.driver)
         self.watchlist_button.click_on_watchlist()
         self.watchlist_page = WatchlistPage(self.driver)
-        self.assertTrue(self.watchlist_page.is_adding_to_watchlist(), "Label is not displayed")
+        self.assertTrue(self.watchlist_page.is_adding_to_watchlist(), "Watchlist is not displayed")
 
     def test_removing_from_watchlist(self):
         self.watchlist_button = AddingToWatchlist(self.driver)
@@ -55,4 +53,4 @@ class IMDBSignInTest(unittest.TestCase):
         self.watchlist_page.removing_from_watchlist()
         self.driver.refresh()
         self.remove = RemoveFromWatchlist(self.driver)
-        self.assertTrue(self.remove.is_removing_from_watchlist(), "Label is not displayed")
+        self.assertTrue(self.remove.is_removing_from_watchlist(), "Watchlist is not displayed")
