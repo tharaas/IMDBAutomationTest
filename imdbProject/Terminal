@@ -1,2 +1,0 @@
-pip3 install selenium
-pip install urllib3==1.26.6
