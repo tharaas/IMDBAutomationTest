@@ -1,6 +1,6 @@
 import time
 import unittest
-from Infra.browser_wrapper import browserWrapper
+from Infra.browser_wrapper import BrowserWrapper
 from Logic.browse_trailers import BrowserTrailers
 from Logic.home_page import HomePage
 from Logic.play_video import PlayVideo
@@ -10,9 +10,8 @@ from Logic.trailer import Trailer
 class IMDBSignInTest(unittest.TestCase):
 
     def setUp(self):
-        self.browser = browserWrapper()
-        self.base_url = "https://www.imdb.com/?ref_=nv_home"
-        self.driver = self.browser.get_driver(self.base_url)
+        self.browser = BrowserWrapper()
+        self.driver = self.browser.get_driver()
         self.home_page = HomePage(self.driver)
 
     def tearDown(self):
@@ -24,6 +23,7 @@ class IMDBSignInTest(unittest.TestCase):
         self.browse_trailers.click_on_movie()
         self.play_video = PlayVideo(self.driver)
         self.play_video.click_on_play_trailer()
+        time.sleep(2)
         self.trailer = Trailer(self.driver)
         self.assertTrue(self.trailer.movie_page_is_displayed(), "Video is not displayed")
 

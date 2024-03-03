@@ -1,5 +1,5 @@
 import unittest
-from Infra.browser_wrapper import browserWrapper
+from Infra.browser_wrapper import BrowserWrapper
 from Logic.adding_to_watchlist import AddingToWatchlist
 from Logic.attack_in_titan_page import AttackOnTitanPage
 from Logic.home_page import HomePage
@@ -13,12 +13,9 @@ from Logic.watchlist_page import WatchlistPage
 
 class IMDBSignInTest(unittest.TestCase):
 
-    SEARCH_TEXT = "attack in titan"
-
     def setUp(self):
-        self.browser = browserWrapper()
-        self.base_url = "https://www.imdb.com/?ref_=nv_home"
-        self.driver = self.browser.get_driver(self.base_url)
+        self.browser = BrowserWrapper()
+        self.driver = self.browser.get_driver()
         self.home_page = HomePage(self.driver)
 
         self.home_page.click_on_sign_in_button()
@@ -32,7 +29,8 @@ class IMDBSignInTest(unittest.TestCase):
         self.driver.quit()
 
     def test_add_to_watchlist(self):
-        self.user_home_page.search_flow(self.SEARCH_TEXT)
+        self.search = self.browser.get_search_query_url()
+        self.user_home_page.search_flow(self.search)
         self.search_page = SearchPage(self.driver)
         self.search_page.click_on_first_movie_match()
         self.show_page = AttackOnTitanPage(self.driver)

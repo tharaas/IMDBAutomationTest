@@ -1,7 +1,7 @@
 import unittest
 import time
 
-from Infra.browser_wrapper import browserWrapper
+from Infra.browser_wrapper import BrowserWrapper
 from Logic.home_page import HomePage
 from Logic.sign_in import SignIn
 from Logic.sign_in_with_google import SignInWithGoogle
@@ -12,9 +12,8 @@ from Logic.user_home_page import UserHomePage
 
 class IMDBSignInTest(unittest.TestCase):
     def setUp(self):
-        self.browser = browserWrapper()
-        self.base_url = "https://www.imdb.com/?ref_=nv_home"
-        self.driver = self.browser.get_driver(self.base_url)
+        self.browser = BrowserWrapper()
+        self.driver = self.browser.get_driver()
         self.home_page = HomePage(self.driver)
 
     def tearDown(self):
