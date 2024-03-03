@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49b431d6-ff02-441c-9039-a5fc537327d6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2cu5tk3VRwQU9zfFRad0XpCZOgi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for test.IMDBPageTest.test_click_on_sign_in_with_google_email_flow">
+    <configuration name="Unittests for test.IMDBPageTest.test_click_on_sign_in" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="imdbProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.IMDBPageTest.test_click_on_sign_in&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test.IMDBPageTest.test_click_on_sign_in_with_google" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="imdbProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.IMDBPageTest.test_click_on_sign_in_with_google&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test.IMDBPageTest.test_click_on_sign_in_with_google_email" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="imdbProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.IMDBPageTest.test_click_on_sign_in_with_google_email&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test.IMDBPageTest.test_click_on_sign_in_with_google_email_flow" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="imdbProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.IMDBPageTest.test_click_on_sign_in_with_google_email_flow&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test.IMDBPageTest.test_click_on_sign_in_with_google_gmail" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="imdbProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.IMDBPageTest.test_click_on_sign_in_with_google_gmail&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for test.IMDBPageTest.test_click_on_sign_in_with_google_email_flow" />
+        <item itemvalue="Python tests.Unittests for test.IMDBPageTest.test_click_on_sign_in_with_google_email" />
+        <item itemvalue="Python tests.Unittests for test.IMDBPageTest.test_click_on_sign_in_with_google" />
+        <item itemvalue="Python tests.Unittests for test.IMDBPageTest.test_click_on_sign_in" />
+        <item itemvalue="Python tests.Unittests for test.IMDBPageTest.test_click_on_sign_in_with_google_gmail" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49b431d6-ff02-441c-9039-a5fc537327d6" name="Default Changelist" comment="" />
+      <created>1708948839647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708948839647</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1709145616019">
+      <screen x="0" y="25" width="1440" height="776" />
+    </state>
+    <state x="440" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.776@0.25.1440.776" timestamp="1709145616019" />
+    <state width="1294" height="265" key="GridCell.Tab.0.bottom" timestamp="1709146191050">
+      <screen x="0" y="25" width="1440" height="776" />
+    </state>
+    <state width="1419" height="265" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1709118102186" />
+    <state width="1294" height="265" key="GridCell.Tab.0.bottom/0.25.1440.776@0.25.1440.776" timestamp="1709146191050" />
+    <state width="1294" height="265" key="GridCell.Tab.0.center" timestamp="1709146191049">
+      <screen x="0" y="25" width="1440" height="776" />
+    </state>
+    <state width="1419" height="265" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1709118102185" />
+    <state width="1294" height="265" key="GridCell.Tab.0.center/0.25.1440.776@0.25.1440.776" timestamp="1709146191049" />
+    <state width="1294" height="265" key="GridCell.Tab.0.left" timestamp="1709146191049">
+      <screen x="0" y="25" width="1440" height="776" />
+    </state>
+    <state width="1419" height="265" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1709118102185" />
+    <state width="1294" height="265" key="GridCell.Tab.0.left/0.25.1440.776@0.25.1440.776" timestamp="1709146191049" />
+    <state width="1294" height="265" key="GridCell.Tab.0.right" timestamp="1709146191050">
+      <screen x="0" y="25" width="1440" height="776" />
+    </state>
+    <state width="1419" height="265" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1709118102185" />
+    <state width="1294" height="265" key="GridCell.Tab.0.right/0.25.1440.776@0.25.1440.776" timestamp="1709146191050" />
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom" timestamp="1709109998808">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1709109998808" />
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1709108657489" />
+    <state width="1419" height="304" key="GridCell.Tab.1.center" timestamp="1709109998807">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1709109998807" />
+    <state width="1419" height="304" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1709108657487" />
+    <state width="1419" height="304" key="GridCell.Tab.1.left" timestamp="1709109998807">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1709109998807" />
+    <state width="1419" height="304" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1709108657487" />
+    <state width="1419" height="304" key="GridCell.Tab.1.right" timestamp="1709109998808">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1709109998808" />
+    <state width="1419" height="304" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1709108657488" />
+    <state x="367" y="125" width="670" height="676" key="search.everywhere.popup" timestamp="1709143096597">
+      <screen x="0" y="25" width="1440" height="776" />
+    </state>
+    <state x="367" y="125" width="670" height="676" key="search.everywhere.popup/0.25.1440.776@0.25.1440.776" timestamp="1709143096597" />
+  </component>
+</project>
