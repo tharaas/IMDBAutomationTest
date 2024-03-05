@@ -1,11 +1,7 @@
 import unittest
 import concurrent.futures
 from Infra.browser_wrapper import BrowserWrapper
-from Logic.actor_page import ActorPage
-from Logic.attack_in_titan_page import AttackOnTitanPage
 from Logic.home_page import HomePage
-from Logic.search_options import SearchOptions
-from Logic.search_page import SearchPage
 from Logic.sign_in import SignIn
 from Logic.sign_in_with_imdb import SignInWithIMDB
 from Logic.user_home_page import UserHomePage
